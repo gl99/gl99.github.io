@@ -1,0 +1,25 @@
+h1 {
+color: rgb(243,255,0);
+}
+h2 {
+color: rgb(243,255,0);
+}
+
+p{
+	width:75%;
+	color: rgb(243,255,0);
+}
+
+img {
+	width:75%;
+	opacity:.9;
+}
+
+body{
+	background-color: rgb(0,50,0);
+}
+
+li{
+	width:75%;
+	color: rgb(243,255,0);
+}
