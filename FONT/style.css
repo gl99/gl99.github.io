@@ -102,14 +102,14 @@ div {
 }
 
 .a4 {
-  top: 214px;
-  left: 96px;
-  width: 0;
-  height: 0;
-  border-left: 28px solid transparent;
-  border-right: 9px solid transparent;
-  border-bottom: 88px solid rgb(167, 219, 243);
-  transform: rotate(261deg);
+    top: 214px;
+    left: 96px;
+    width: 0;
+    height: 0;
+    border-left: 27px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 80px solid rgb(167, 219, 243);
+    transform: rotate(261deg);
 }
 
 .a5 {
@@ -122,6 +122,126 @@ div {
     border-bottom: 70px solid rgb(97, 196, 239);
     transform: rotate(81deg);
   }
+
+
+.n {
+  top: 50px;
+  left: 630px;
+}
+
+.n1 {
+    top: 147px;
+    left: -19px;
+    width: 0;
+    height: 0;
+    border-left: 75px solid transparent;
+    border-right: 46px solid transparent;
+    border-bottom: 38px solid rgb(181, 214, 240);
+    transform: rotate(-119deg);
+}
+
+.n2 {
+    top: 247px;
+    left: -60px;
+    width: 0;
+    height: 0;
+    border-left: 52px solid transparent;
+    border-right: 181px solid transparent;
+    border-bottom: 68px solid rgb(103, 180, 226);
+    transform: rotate(85deg);
+}
+
+.n3 {
+    top: 206px;
+    left: 58px;
+    width: 0;
+    height: 0;
+    border-left: 193px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 51px solid rgb(165, 216, 243);
+    transform: rotate(993deg);
+}
+
+.n4 {
+    top: 294px;
+    left: 86px;
+    width: 0;
+    height: 0;
+    border-left: 52px solid transparent;
+    border-right: 130px solid transparent;
+    border-bottom: 48px solid rgb(94, 165, 216);
+    transform: rotate(258deg);
+}
+
+.n5 {
+    top: 170px;
+    left: -4px;
+    width: 0;
+    height: 0;
+    border-left: 178px solid transparent;
+    border-right: 79px solid transparent;
+    border-bottom: 59px solid rgb(133, 207, 242);
+    transform: rotate(421deg);
+  }
+
+.g {
+  top: 47px;
+  left: 910px;
+}
+
+.g1 {
+    top: 108px;
+    left: 46px;
+    width: 0;
+    height: 0;
+    border-left: 121px solid transparent;
+    border-right: 46px solid transparent;
+    border-bottom: 36px solid rgb(119, 193, 226);
+    transform: rotate(-181deg);
+}
+
+.g2 {
+    top: 179px;
+    left: -60px;
+    width: 0;
+    height: 0;
+    border-left: 52px solid transparent;
+    border-right: 181px solid transparent;
+    border-bottom: 76px solid rgb(183, 222, 245);
+    transform: rotate(92deg);
+}
+
+.g3 {
+    top: 291px;
+    left: 92px;
+    width: 0;
+    height: 0;
+    border-left: 37px solid transparent;
+    border-right: 129px solid transparent;
+    border-bottom: 51px solid rgb(105, 164, 214);
+    transform: rotate(643deg);
+}
+.g4 {
+    top: 244px;
+    left: 102px;
+    width: 0;
+    height: 0;
+    border-left: 28px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 38px solid rgb(170, 219, 255);
+    transform: rotate(180deg);
+}
+
+.g5 {
+    top: 328px;
+    left: -6px;
+    width: 0;
+    height: 0;
+    border-left: 162px solid transparent;
+    border-right: 29px solid transparent;
+    border-bottom: 69px solid rgb(148, 208, 241);
+    transform: rotate(587deg);
+}
 /* ------------------------ */ 
 
 /*.clip1 {
