@@ -242,6 +242,19 @@ div {
     border-bottom: 69px solid rgb(148, 208, 241);
     transform: rotate(587deg);
 }
+
+.h1 {
+position: absolute;
+top: 500px;
+
+}
+
+.p {
+position: absolute;
+top: 550px;
+width: 350px;
+
+}
 /* ------------------------ */ 
 
 /*.clip1 {
