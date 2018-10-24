@@ -20,23 +20,23 @@ div {
 }
 
 .r2 {
-  top: 220px;
-  left:-90px;
+  top: 218px;
+  left:-93px;
   width: 0;
   height: 0;
   border-left: 40px solid transparent;
-  border-right: 250px solid transparent;
+  border-right: 257px solid transparent;
   border-bottom: 70px solid rgb(198, 219, 240);
   transform: rotate(90deg);
 }
 
 .r3 {
-  top: 91px;
+  top: 91.5px;
   left: 173px;
   width: 0;
   height: 0;
-  border-left: 50px solid transparent;
-  border-right: 38px solid transparent;
+  border-left: 49px solid transparent;
+  border-right: 37px solid transparent;
   border-bottom: 70px solid rgb(105, 164, 214);
   transform: rotate(36deg);
 }
@@ -46,7 +46,7 @@ div {
   left: 123px;
   width: 0;
   height: 0;
-  border-left: 58px solid transparent;
+  border-left: 59px solid transparent;
   border-right: 9px solid transparent;
   border-bottom: 150px solid rgb(103, 180, 226);
   transform: rotate(216deg);
@@ -69,30 +69,30 @@ div {
 }
 
 .a1 {
-  top: 136px;
-  left: 20px;
+  top: 137px;
+  left: 21px;
   width: 0;
   height: 0;
   border-left: 114px solid transparent;
-  border-right: 38px solid transparent;
+  border-right: 39px solid transparent;
   border-bottom: 59px solid rgb(103, 180, 226);
   transform: rotate(142deg);
 }
 
 .a2 {
   top: 267px;
-  left: -56px;
+  left: -54px;
   width: 0;
   height: 0;
   border-left: 24px solid transparent;
   border-right: 185px solid transparent;
   border-bottom: 63px solid rgb(162, 215, 234);
-  transform: rotate(90deg);
+  transform: rotate(89deg);
 }
 
 .a3 {
-  top: 129px;
-  left: 113px;
+  top: 130px;
+  left: 111px;
   width: 0;
   height: 0;
   border-left: 87px solid transparent;
@@ -113,13 +113,13 @@ div {
 }
 
 .a5 {
-    top: 243px;
-    left: 80px;
+    top: 241px;
+    left: 78px;
     width: 0;
     height: 0;
     border-left: 29px solid transparent;
     border-right: 216px solid transparent;
-    border-bottom: 70px solid rgb(97, 196, 239);
+    border-bottom: 70px solid rgb(97, 186, 239);
     transform: rotate(81deg);
   }
 
@@ -131,7 +131,7 @@ div {
 
 .n1 {
     top: 147px;
-    left: -19px;
+    left: -18px;
     width: 0;
     height: 0;
     border-left: 75px solid transparent;
@@ -164,7 +164,7 @@ div {
 
 .n4 {
     top: 294px;
-    left: 86px;
+    left: 87px;
     width: 0;
     height: 0;
     border-left: 52px solid transparent;
@@ -190,12 +190,12 @@ div {
 }
 
 .g1 {
-    top: 108px;
-    left: 46px;
+    top: 106px;
+    left: 49px;
     width: 0;
     height: 0;
     border-left: 121px solid transparent;
-    border-right: 46px solid transparent;
+    border-right: 47px solid transparent;
     border-bottom: 36px solid rgb(119, 193, 226);
     transform: rotate(-181deg);
 }
@@ -233,41 +233,159 @@ div {
 }
 
 .g5 {
-    top: 328px;
-    left: -6px;
+    top: 330px;
+    left: -5px;
     width: 0;
     height: 0;
-    border-left: 162px solid transparent;
+    border-left: 161px solid transparent;
     border-right: 29px solid transparent;
     border-bottom: 69px solid rgb(148, 208, 241);
     transform: rotate(587deg);
 }
 
+.e {
+  top: 53px;
+  left: 1170px;
+}
+
+.e1 {
+    top: 92px;
+    left: 36px;
+    width: 0;
+    height: 0;
+    border-left: 127px solid transparent;
+    border-right: 53px solid transparent;
+    border-bottom: 47px solid rgb(118, 179, 222);
+    transform: rotate(0deg);
+}
+
+.e2 {
+    top: 195px;
+    left: -93px;
+    width: 0;
+    height: 0;
+    border-left: 201px solid transparent;
+    border-right: 43px solid transparent;
+    border-bottom: 73px solid rgb(205, 231, 245);
+    transform: rotate(300.5deg);
+}
+
+.e3 {
+    top: 226px;
+    left: 57.25px;
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 85px solid transparent;
+    border-bottom: 41px solid rgb(148, 208, 241);
+    transform: rotate(719deg);
+}
+.e4 {
+    top: 329px;
+    left: -32.5px;
+    width: 0;
+    height: 0;
+    border-left: 31px solid transparent;
+    border-right: 70px solid transparent;
+    border-bottom: 55px solid rgb(170, 219, 255);
+    transform: rotate(-98deg);
+}
+
+.e5 {
+    top: 368px;
+    left: 30px;
+    width: 0;
+    height: 0;
+    border-left: 133px solid transparent;
+    border-right: 36px solid transparent;
+    border-bottom: 58px solid rgb(97, 186, 239);
+    transform: rotate(564deg);
+}
+
+.s {
+  top: 45px;
+  left: 1420px;
+}
+
+.s1 {
+    top: 133px;
+    left: 40px;
+    width: 0;
+    height: 0;
+    border-left: 124px solid transparent;
+    border-right: 46px solid transparent;
+    border-bottom: 54px solid rgb(110, 196, 244);
+    transform: rotate(204deg);
+}
+
+.s2 {
+    top: 213px;
+    left: -8px;
+    width: 0;
+    height: 0;
+    border-left: 161px solid transparent;
+    border-right: 51px solid transparent;
+    border-bottom: 63px solid rgb(118, 179, 222);
+    transform: rotate(416deg);
+}
+
+.s3 {
+    top: 149px;
+    left: -3px;
+    width: 0;
+    height: 0;
+    border-left: 74px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 61px solid rgb(148, 208, 241);
+    transform: rotate(614deg);
+}
+.s4 {
+    top: 338px;
+    left: 79px;
+    width: 0;
+    height: 0;
+    border-left: 41px solid transparent;
+    border-right: 106px solid transparent;
+    border-bottom: 28px solid rgb(170, 219, 255);
+    transform: rotate(107deg);
+}
+
+.s5 {
+    top: 356px;
+    left: -23px;
+    width: 0;
+    height: 0;
+    border-left: 19px solid transparent;
+    border-right: 133px solid transparent;
+    border-bottom: 58px solid rgb(132, 194, 232);
+    transform: rotate(540deg);
+}
 .h1 {
 position: absolute;
 top: 500px;
 
-}
-
-.p {
-position: absolute;
-top: 550px;
 width: 350px;
+color: rgb(120,200,250);
+width: 500px;
+position: absolute;
+font-family: Helvetica, Arial;
+/*font-weight: 700;*/
+font-size: 50px;
+line-height: 30px;
+text-align: left;
+letter-spacing: 10px;
+}
+
+.description {
+position: absolute;
+top: 580px;
+color: rgb(140,180,240);
+width: 436px;
+position: absolute;
+font-family: Helvetica, Arial;
+/*font-weight: 700;*/
+font-size: 20px;
+line-height: 30px;
+text-align: justify;
 
 }
-/* ------------------------ */ 
-
-/*.clip1 {
-  top: 400px;
-  left: 50px;
-  width: 100px;
-  height: 208px;
-  background-color: transparent;
-  overflow: hidden;
-}
-.circle1 {
-  width: 200px;
-  height: 200px;
-  border: 4px solid rgb(20,180,240);
-  border-radius: 50%;
-}*/
