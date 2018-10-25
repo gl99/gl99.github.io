@@ -362,11 +362,11 @@ div {
 }
 .h1 {
 position: absolute;
-top: 500px;
-left: 25px;
+top: 510px;
+left: 100px;
 
 width: 350px;
-color: rgb(120,200,250);
+color: rgb(140,180,240);
 width: 500px;
 position: absolute;
 font-family: Helvetica, Arial;
@@ -380,7 +380,7 @@ letter-spacing: 10px;
 .description {
 position: absolute;
 top: 580px;
-left: 50px;
+left: 100px;
 color: rgb(140,180,240);
 width: 436px;
 position: absolute;
