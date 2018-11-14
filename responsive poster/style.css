@@ -1,0 +1,210 @@
+
+.box1{
+  display: hide;
+}
+
+.box3{
+  display: hide;
+}
+
+.box2{
+  display: hide;
+}
+.datetime {
+  position: absolute;
+  top: 1.1vw;
+  left: 65vw;
+  font-family: 'Oswald', sans-serif;
+  font-size: 3vw;
+  color: rgb(255,255,255);
+  text-align: center
+}
+.logo {
+  position: absolute;
+}
+
+.location {
+  position: absolute;
+  top: 62vw;
+  left: 4vw;
+  width: 90vw;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2vw;
+  color: rgb(255,255,255);
+  line-height: 4vw;
+}
+
+.box99 {
+  position: absolute;
+  top: -13px;
+  left: 0vw;
+  width: 100vw;
+  height: 73.68vw;
+  background-image: url(yeet.svg);
+  background-size: cover;
+
+}
+.logo {
+  position: absolute;
+  top: -3.1vh;
+  left: -1vw;
+  transform: scale(.7);
+    width: 23vw;
+    height: 23vw;  
+
+}
+.prices {
+  position: absolute;
+  top: 22vw;
+  left: 4vw;
+  font-family: 'Oswald', sans-serif;
+  font-size: 3.0vw;
+  color: rgb(255,255,255);
+  line-height: 7vw;
+}
+
+
+.video {
+  position: absolute;
+  width: 130vh;
+  height: 44.5vw;
+  top: -415px;
+  left: 40vw;
+  transform: scale(1.5);
+  overflow:;
+ 
+}
+
+.bg-pic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("comicconfloor.jpg");
+  background-size: cover;
+  background-position: center;
+  transform: scale(1.5)
+}
+
+
+@media (max-width: 500px){
+
+
+.datetime {
+  position: absolute;
+  top: 554px;
+  left: 300px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 5.5vw;
+  color: rgb(255,255,255);
+}
+.logo {
+  position: absolute;
+
+
+}
+.box1 {
+  position: absolute;
+  top: 525px;
+  left: 16vw;
+  width: 85vw;
+  height: 23vw;
+  background-image: url(redslantbox.svg);
+  background-size: cover;
+
+}
+.logo {
+  position: absolute;
+  top: 120px;
+  left: 100px;
+
+}
+.prices {
+  position: absolute;
+  left: 10vw;
+  width:50vw;
+  height: 50vw;
+  top: 875px;
+  left: 300px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 5.5vw;
+  color: rgb(255,255,255);
+  line-height: 100px;
+
+}
+.box2 {
+  position: absolute;
+  top: 832px;
+  left: 0vw;
+  width: 85vw;
+  height: 60vw;
+  background-image: url(blueslantbox.svg);
+  background-size: cover;
+}
+
+.location {
+  position: absolute;
+  top: 1515px;
+  left: 00vw;
+  width: 100vw;
+  height:53vw;
+  font-family: 'Oswald', sans-serif;
+  font-size: 5.5vw;
+  color: rgb(255,255,255);
+  line-height: 90px;
+  text-align: center;
+}
+
+.box3 {
+  position: absolute;
+  top: 1500px;
+  left: 0vw;
+  width: 101vw;
+  height: 23vw;
+  background-color: rgb(238, 28, 36);
+  }
+
+.background {
+  position: absolute;
+ 
+  width: 100.1vw;
+  height: 100vh;
+  background-image: url("comicconfloor.jpg");
+  background-size: cover;
+  background-position: center;
+  transform: scale(1.3)
+}
+
+.video {
+  display:none;
+}
+
+.box99 {
+  display:none;
+}
+}
+/*@media (max-width: 711px) {
+  .title {
+    font-size: 54px;
+    font-family: 'Oswald', sans-serif;
+
+  }
+  .bg-pic {
+    background-image: url("bg-tall.jpg");
+  }
+  .box2 {
+    left: 10vw;
+    top: 470px;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .box1 {
+    background-color: rgb(255,255,255);
+  }
+  .box2 {
+    background-color: rgb(255,255,255);
+  }
+}
