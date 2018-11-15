@@ -19,9 +19,6 @@
   color: rgb(255,255,255);
   text-align: center
 }
-.logo {
-  position: absolute;
-}
 
 .location {
   position: absolute;
@@ -66,7 +63,8 @@
 }
 
 .prices:hover {
-    font-weight: bold
+    font-weight: bold;
+
 
 }
 
