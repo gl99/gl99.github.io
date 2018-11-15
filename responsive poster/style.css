@@ -62,10 +62,20 @@
   line-height: 7vw;
 }
 
-.prices:hover {
-    font-weight: bold;
-
-
+.thu:hover {
+  font-weight: bold;
+}
+.fri:hover {
+  font-weight: bold;
+}
+.sat:hover {
+  font-weight: bold;
+}
+.sun:hover {
+  font-weight: bold;
+}
+.kid:hover {
+  font-weight: bold;
 }
 
 .video {
