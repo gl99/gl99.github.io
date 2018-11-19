@@ -8,6 +8,18 @@ padding: 0px;
 overflow-x: hidden;
 }
 
+.bg {
+position: absolute;
+top: 0;
+left: 0;
+width: 100vw;
+height: 100vh;
+background-color: rgb(235,35,33);
+background-size: cover;
+background-position: center;
+background-repeat: repeat;
+}
+
 .box1{
   display: hide;
 }
@@ -96,9 +108,12 @@ overflow-x: hidden;
   position: absolute;
   width: 130vw;
   height: 44.5vw;
-  top: 190px;
-  left: -12vw;
+  top: 220px;
+  left: -12.7vw;
   transform: scale(1.35);
+  border: 5px solid;
+  border-color: white
+  ;
  
 }
 @media (min-width: 1080px){
