@@ -1,6 +1,20 @@
 
+html, body
+{
+width: 100%;
+height: 100%;
+margin: 0px;
+padding: 0px;
+overflow-x: hidden;
+overflow-y: hidden;
+}
+
 .box1{
   display: hide;
+}
+
+.box98{
+  display:hide;
 }
 
 .box3{
@@ -10,6 +24,7 @@
 .box2{
   display: hide;
 }
+
 .datetime {
   position: absolute;
   top: 1.12vw;
@@ -39,8 +54,8 @@
   height: 73.68vw;
   background-image: url(yeet.svg);
   background-size: cover;
-
 }
+
 .logo {
   position: absolute;
     top: -6.2vh;
@@ -80,29 +95,51 @@
 
 .video {
   position: absolute;
-  width: 130vh;
+  width: 130vw;
   height: 44.5vw;
-  top: -415px;
-  left: 40vw;
-  transform: scale(1.5);
+  top: 190px;
+  left: 0vw;
+  transform: scale(1.35);
  
 }
+@media (min-width: 1080px){
 
-.bg-pic {
+  .box98 {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -13px;
+  left: 0vw;
   width: 100vw;
-  height: 100vh;
-  background-image: url("comicconfloor.jpg");
+  height: 73.68vw;
+  background-image: url(yeet2.svg);
   background-size: cover;
-  background-position: center;
-  transform: scale(1.5)
 }
 
+.box99 {
+  display: none;
+}
+
+.location{
+  position: absolute;
+  top: 48.6vw;
+  left: 39vw;
+  width: 90vw;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2vw;
+  color: rgb(255,255,255);
+  line-height: 4vw;
+}
+
+}
 
 @media (max-width: 500px){
 
+.fill{
+  display:none;
+}
+
+.box98{
+  display: hide;
+}
 
 .datetime {
   position: absolute;
