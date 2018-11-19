@@ -98,7 +98,7 @@ overflow-y: hidden;
   width: 130vw;
   height: 44.5vw;
   top: 190px;
-  left: 0vw;
+  left: -12vw;
   transform: scale(1.35);
  
 }
@@ -120,7 +120,7 @@ overflow-y: hidden;
 
 .location{
   position: absolute;
-  top: 48.6vw;
+  top: 48.7vw;
   left: 39vw;
   width: 90vw;
   font-family: 'Oswald', sans-serif;
