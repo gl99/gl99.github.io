@@ -1,0 +1,36 @@
+.title {
+  position: absolute;
+  top: 30vh;
+  left: 20vw;
+  text-align:center;
+  font-size: 80px;
+  font-color: black;
+  font-family: 'Great Vibes', cursive;
+}
+.enter{
+  position: absolute;
+  top: 65vh;
+  left: 45vw;
+  text-align:center;
+  font-size: 40px;
+  font-color:black;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.bar {
+  position: absolute;
+  top: 48vh;
+  left: 14.25vw;
+  width: 1000px;
+  height: 5px;
+  background-color: rgb(251, 216, 118);
+}
+
+.bgimage {
+  position: absolute;
+ 
+  width: 100vw;
+  height: 97.5vh;
+  background-image: url("collagewwhiteover.png");
+  background-size: cover;
+  background-position: center;
+}
