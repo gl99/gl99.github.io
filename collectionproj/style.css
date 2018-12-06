@@ -1,36 +1,728 @@
 .title {
   position: absolute;
   top: 30vh;
-  left: 20vw;
+  left: 9vw;
   text-align:center;
-  font-size: 80px;
+  font-size: 8vw;
   font-color: black;
   font-family: 'Great Vibes', cursive;
 }
 .enter{
   position: absolute;
   top: 65vh;
-  left: 45vw;
+  left: 47.7vw;
   text-align:center;
-  font-size: 40px;
+  font-size: 3vw;
   font-color:black;
   font-family: 'Source Sans Pro', sans-serif;
 }
 .bar {
   position: absolute;
   top: 48vh;
-  left: 14.25vw;
-  width: 1000px;
+  left: 5.5vw;
+  width: 90%;
   height: 5px;
   background-color: rgb(251, 216, 118);
 }
 
-.bgimage {
-  position: absolute;
- 
-  width: 100vw;
-  height: 97.5vh;
-  background-image: url("collagewwhiteover.png");
-  background-size: cover;
-  background-position: center;
+.box {
+  position:absolute;
+  background-image:url(whitebox.svg);
+  top:0px;
+  left:0px;
+  height:255%;
+  width:103%;
+}
+
+.pics {
+  position:relative;
+  top:5px;
+  left:6.8vw;
+}
+
+.pic1 {
+  position: relative;
+  top:10px;
+  left:10px;
+  width:20vw;
+  height:20vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic1.jpg);
+  background-position:center;
+  background-size:cover;
+  float: left;
+}
+
+.pic2 {
+  position: relative;
+  top:10px;
+  left:10px;
+  width:20vw;
+  height:20vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic2.jpg);
+  background-position:center;
+  background-size:cover;
+  float: left;
+}
+
+.pic3 {
+  position: relative;
+  top:10px;
+  left:10px;
+  width:20vw;
+  height:20vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic3.jpg);
+  background-position:center;
+  background-size:cover;
+  float: left;
+}
+.pic4 {
+  position: relative;
+  top:10px;
+  left:10px;
+  width:20vw;
+  height:20vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic4.jpg);
+  background-position:center;
+  background-size:cover;
+  float: left;
+}
+
+.pic5 {
+  position: relative;
+  top:10px;
+  left:10px;
+  width:20vw;
+  height:20vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic5.jpg);
+  background-position:center;
+  background-size:cover;
+  float: left;
+}
+
+.pic6 {
+  position: relative;
+  top:10px;
+  left:10px;
+  width:20vw;
+  height:20vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic6.jpg);
+  background-position:center;
+  background-size:cover;
+  float: left;
+}
+
+.pic7 {
+  position: relative;
+  top:10px;
+  left:10px;
+  width:20vw;
+  height:20vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic7.jpg);
+  background-position:center;
+  background-size:cover;
+  float: left;
+}
+
+.pic8 {
+  position: relative;
+  top:10px;
+  left:10px;
+  width:20vw;
+  height:20vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic8.jpg);
+  background-position:center;
+  background-size:cover;
+  float: left;
+}
+
+.pic9 {
+  position: relative;
+  top:10px;
+  left:10px;
+  width:20vw;
+  height:20vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic9.jpg);
+  background-position:center;
+  background-size:cover;
+  float: left;
+}
+
+.pic10 {
+  position: relative;
+  top:10px;
+  left:10px;
+  width:20vw;
+  height:20vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic10.jpg);
+  background-position:center;
+  background-size:cover;
+  float: left;
+}
+
+.pic11 {
+  position: relative;
+  top:10px;
+  left:10px;
+  width:20vw;
+  height:20vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic11.jpg);
+  background-position:center;
+  background-size:cover;
+  float: left;
+}
+
+.pic12 {
+  position: relative;
+  top:10px;
+  left:10px;
+  width:20vw;
+  height:20vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic12.jpg);
+  background-position:center;
+  background-size:cover;
+  float: left;
+}
+
+.pic13 {
+  position: relative;
+  top:10px;
+  left:10px;
+  width:20vw;
+  height:20vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic13.jpg);
+  background-position:center;
+  background-size:cover;
+  float: left;
+}
+
+.pic14 {
+  position: relative;
+  top:10px;
+  left:10px;
+  width:20vw;
+  height:20vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic14.jpg);
+  background-position:center;
+  background-size:cover;
+  float: left;
+}
+
+.pic15 {
+  position: relative;
+  top:10px;
+  left:10px;
+  width:20vw;
+  height:20vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic15.jpg);
+  background-position:center;
+  background-size:cover;
+  float: left;
+}
+
+.pic16 {
+  position: relative;
+  top:10px;
+  left:10px;
+  width:20vw;
+  height:20vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic16.jpg);
+  background-position:center;
+  background-size:cover;
+  float: left;
+}
+
+.pic17 {
+  position: relative;
+  top:10px;
+  left:10px;
+  width:20vw;
+  height:20vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic17.jpg);
+  background-position:center;
+  background-size:cover;
+  float: left;
+}
+
+.pic18 {
+  position: relative;
+  top:10px;
+  left:10px;
+  width:20vw;
+  height:20vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic18.jpg);
+  background-position:center;
+  background-size:cover;
+  float: left;
+}
+
+.pic19 {
+  position: relative;
+  top:10px;
+  left:10px;
+  width:20vw;
+  height:20vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic19.jpg);
+  background-position:center;
+  background-size:cover;
+  float: left;
+}
+
+.pic20 {
+  position: relative;
+  top:10px;
+  left:10px;
+  width:20vw;
+  height:20vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic20.jpg);
+  background-position:center;
+  background-size:cover;
+  float: left;
+}
+
+.pic21 {
+  position: relative;
+  top:10px;
+  left:10px;
+  width:20vw;
+  height:20vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic21.jpg);
+  background-position:center;
+  background-size:cover;
+  float: left;
+}
+
+.pic22 {
+  position: relative;
+  top:10px;
+  left:10px;
+  width:20vw;
+  height:20vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic22.jpg);
+  background-position:center;
+  background-size:cover;
+  float: left;
+}
+
+.pic23 {
+  position: relative;
+  top:10px;
+  left:10px;
+  width:20vw;
+  height:20vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic23.jpg);
+  background-position:center;
+  background-size:cover;
+  float: left;
+}
+
+.pic24 {
+  position: relative;
+  top:10px;
+  left:10px;
+  width:20vw;
+  height:20vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic24.jpg);
+  background-position:center;
+  background-size:cover;
+  float: left;
+}
+
+.pic25 {
+  position: relative;
+  top:10px;
+  left:10px;
+  width:20vw;
+  height:20vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic25.jpg);
+  background-position:center;
+  background-size:cover;
+  float: left;
+}
+
+.pic26 {
+  position: relative;
+  top:10px;
+  left:10px;
+  width:20vw;
+  height:20vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic26.jpg);
+  background-position:center;
+  background-size:cover;
+  float: left;
+}
+
+.pic27 {
+  position: relative;
+  top:10px;
+  left:10px;
+  width:20vw;
+  height:20vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic27.jpg);
+  background-position:center;
+  background-size:cover;
+  float: left;
+}
+
+.pic28 {
+  position: relative;
+  top:10px;
+  left:10px;
+  width:20vw;
+  height:20vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic28.jpg);
+  background-position:center;
+  background-size:cover;
+  float: left;
+}
+
+.pic29 {
+  position: relative;
+  top:10px;
+  left:10px;
+  width:20vw;
+  height:20vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic29.jpg);
+  background-position:center;
+  background-size:cover;
+  float: left;
+}
+
+.pic30 {
+  position: relative;
+  top:10px;
+  left:10px;
+  width:20vw;
+  height:20vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic30.jpg);
+  background-position:center;
+  background-size:cover;
+  float: left;
+}
+
+.pic31 {
+  position: relative;
+  top:10px;
+  left:10px;
+  width:20vw;
+  height:20vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic31.jpg);
+  background-position:center;
+  background-size:cover;
+  float: left;
+}
+
+.pic32 {
+  position: relative;
+  top:10px;
+  left:10px;
+  width:20vw;
+  height:20vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic32.jpg);
+  background-position:center;
+  background-size:cover;
+  float: left;
+}
+
+.pic33 {
+  position: relative;
+  top:10px;
+  left:10px;
+  width:20vw;
+  height:20vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic33.jpg);
+  background-position:center;
+  background-size:cover;
+  float: left;
+}
+
+.pic34 {
+  position: relative;
+  top:10px;
+  left:10px;
+  width:20vw;
+  height:20vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic34.jpg);
+  background-position:center;
+  background-size:cover;
+  float: left;
+}
+
+.pic35 {
+  position: relative;
+  top:10px;
+  left:10px;
+  width:20vw;
+  height:20vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic35.jpg);
+  background-position:center;
+  background-size:cover;
+  float: left;
+}
+
+.pic36 {
+  position: relative;
+  top:10px;
+  left:10px;
+  width:20vw;
+  height:20vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic36.jpg);
+  background-position:center;
+  background-size:cover;
+  float: left;
+}
+
+.pic37 {
+  position: relative;
+  top:10px;
+  left:10px;
+  width:20vw;
+  height:20vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic37.jpg);
+  background-position:center;
+  background-size:cover;
+  float: left;
+}
+
+.pic38 {
+  position: relative;
+  top:10px;
+  left:10px;
+  width:20vw;
+  height:20vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic38.jpg);
+  background-position:center;
+  background-size:cover;
+  float: left;
+}
+
+.pic39 {
+  position: relative;
+  top:10px;
+  left:10px;
+  width:20vw;
+  height:20vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic39.jpg);
+  background-position:center;
+  background-size:cover;
+  float: left;
+}
+
+.pic40 {
+  position: relative;
+  top:10px;
+  left:10px;
+  width:20vw;
+  height:20vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic40.jpg);
+  background-position:center;
+  background-size:cover;
+  float: left;
+}
+
+.pic41 {
+  position: relative;
+  top:10px;
+  left:10px;
+  width:20vw;
+  height:20vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic41.jpg);
+  background-position:center;
+  background-size:cover;
+  float: left;
+}
+
+.pic42 {
+  position: relative;
+  top:10px;
+  left:10px;
+  width:20vw;
+  height:20vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic42.jpg);
+  background-position:center;
+  background-size:cover;
+  float: left;
+}
+
+.pic43 {
+  position: relative;
+  top:10px;
+  left:10px;
+  width:20vw;
+  height:20vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic43.jpg);
+  background-position:center;
+  background-size:cover;
+  float: left;
 }
