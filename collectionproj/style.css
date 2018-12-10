@@ -1,7 +1,7 @@
 .title {
   position: absolute;
   top: 30vh;
-  left: 7vw;
+  left: 7.4vw;
   text-align:center;
   font-size: 8vw;
   font-color: black;
@@ -20,7 +20,7 @@
 .bar {
   position: absolute;
   top: 48vh;
-  left: 4vw;
+  left: 4.2vw;
   width: 90%;
   height: 5px;
   background-color: rgb(251, 216, 118);
@@ -38,7 +38,7 @@
 .pics {
   position:relative;
   top:5px;
-  left:6.8vw;
+  left:5.3vw;
 }
 
 .pic1 {
