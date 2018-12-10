@@ -1,0 +1,175 @@
+.pic1{
+  position: absolute;
+  top:7.5vh;
+  left:30vw;
+  width:300px;
+  height:500px;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic1.jpg);
+  background-position:center;
+  background-size:cover;
+  float: left;
+  transition: all .25s ease-in-out;
+  }
+
+.similar{
+  position: absolute;
+  top: 14vh;
+  left: 72.5vw;
+  text-align:center;
+  font-size: 25px;
+  font-color:black;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.otherpics{
+
+  position: absolute;
+  top:150px;
+  left:70vw;
+  width:20vw;
+  height:20vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
+}
+
+.pic39 {
+  position: relative;
+  width:15vw;
+  height:15vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic39.jpg);
+  background-position:center;
+  background-size:cover;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
+}
+
+.pic22 {
+  position: relative;
+  width:15vw;
+  height:15vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic22.jpg);
+  background-position:center;
+  background-size:cover;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
+}
+
+.pic11 {
+  position: relative;
+  width:15vw;
+  height:15vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic11.jpg);
+  background-position:center;
+  background-size:cover;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
+}
+
+.pic39:hover {
+  height: 18vh;
+  width: 18vw;
+}
+
+.pic22:hover {
+  height: 18vh;
+  width: 18vw;
+}
+
+.pic11:hover {
+  height: 18vh;
+  width: 18vw;
+}
+
+.back{
+  position: absolute;
+  top: 5vh;
+  left: 10.5vw;
+  text-align:center;
+  font-size: 20px;
+  font-color:black;
+  font-family: 'Source Sans Pro', sans-serif;
+  cursor:pointer;
+}
+
+.bar {
+  position: absolute;
+  top: 6vh;
+  left: 70vw;
+  width: 5px;
+  height: 550px;
+  background-color: rgb(251, 216, 118);
+}
+
+@media (max-width: 800px){
+
+.otherpics{
+ position: relative;
+ float:left;
+  top:600px;
+  left:18vw;
+  width:15vw;
+  height:15vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
+	}
+
+.similar{
+  position: absolute;
+  top: 587px;
+  left: 35vw;
+  text-align:center;
+  font-size: 20px;
+  font-color:black;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.pic1{
+	left:21.5vw;
+}
+
+.bar {
+  position: absolute;
+  top: 78vh;
+  left: 5vw;
+  width: 90%;
+  height: 5px;
+  background-color: rgb(251, 216, 118);
+
+}
+
+@media (max-width:450px){
+
+	.pic1{
+		left:10vw;
+	}
+}
+
+
+
+
+
+

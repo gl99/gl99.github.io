@@ -1,7 +1,7 @@
 .title {
   position: absolute;
   top: 30vh;
-  left: 9vw;
+  left: 7vw;
   text-align:center;
   font-size: 8vw;
   font-color: black;
@@ -10,16 +10,17 @@
 .enter{
   position: absolute;
   top: 65vh;
-  left: 47.7vw;
+  left: 47vw;
   text-align:center;
   font-size: 3vw;
   font-color:black;
   font-family: 'Source Sans Pro', sans-serif;
+  cursor:pointer;
 }
 .bar {
   position: absolute;
   top: 48vh;
-  left: 5.5vw;
+  left: 4vw;
   width: 90%;
   height: 5px;
   background-color: rgb(251, 216, 118);
@@ -54,6 +55,8 @@
   background-position:center;
   background-size:cover;
   float: left;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
 }
 
 .pic2 {
@@ -70,6 +73,8 @@
   background-position:center;
   background-size:cover;
   float: left;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
 }
 
 .pic3 {
@@ -86,6 +91,8 @@
   background-position:center;
   background-size:cover;
   float: left;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
 }
 .pic4 {
   position: relative;
@@ -101,6 +108,8 @@
   background-position:center;
   background-size:cover;
   float: left;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
 }
 
 .pic5 {
@@ -117,6 +126,8 @@
   background-position:center;
   background-size:cover;
   float: left;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
 }
 
 .pic6 {
@@ -133,6 +144,8 @@
   background-position:center;
   background-size:cover;
   float: left;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
 }
 
 .pic7 {
@@ -149,6 +162,8 @@
   background-position:center;
   background-size:cover;
   float: left;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
 }
 
 .pic8 {
@@ -165,6 +180,8 @@
   background-position:center;
   background-size:cover;
   float: left;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
 }
 
 .pic9 {
@@ -181,6 +198,8 @@
   background-position:center;
   background-size:cover;
   float: left;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
 }
 
 .pic10 {
@@ -197,6 +216,8 @@
   background-position:center;
   background-size:cover;
   float: left;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
 }
 
 .pic11 {
@@ -213,6 +234,8 @@
   background-position:center;
   background-size:cover;
   float: left;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
 }
 
 .pic12 {
@@ -229,6 +252,8 @@
   background-position:center;
   background-size:cover;
   float: left;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
 }
 
 .pic13 {
@@ -245,6 +270,8 @@
   background-position:center;
   background-size:cover;
   float: left;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
 }
 
 .pic14 {
@@ -261,6 +288,8 @@
   background-position:center;
   background-size:cover;
   float: left;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
 }
 
 .pic15 {
@@ -277,6 +306,8 @@
   background-position:center;
   background-size:cover;
   float: left;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
 }
 
 .pic16 {
@@ -293,6 +324,8 @@
   background-position:center;
   background-size:cover;
   float: left;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
 }
 
 .pic17 {
@@ -309,6 +342,8 @@
   background-position:center;
   background-size:cover;
   float: left;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
 }
 
 .pic18 {
@@ -325,6 +360,8 @@
   background-position:center;
   background-size:cover;
   float: left;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
 }
 
 .pic19 {
@@ -341,6 +378,8 @@
   background-position:center;
   background-size:cover;
   float: left;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
 }
 
 .pic20 {
@@ -357,6 +396,8 @@
   background-position:center;
   background-size:cover;
   float: left;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
 }
 
 .pic21 {
@@ -373,6 +414,8 @@
   background-position:center;
   background-size:cover;
   float: left;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
 }
 
 .pic22 {
@@ -389,6 +432,8 @@
   background-position:center;
   background-size:cover;
   float: left;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
 }
 
 .pic23 {
@@ -405,6 +450,8 @@
   background-position:center;
   background-size:cover;
   float: left;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
 }
 
 .pic24 {
@@ -421,6 +468,8 @@
   background-position:center;
   background-size:cover;
   float: left;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
 }
 
 .pic25 {
@@ -437,6 +486,8 @@
   background-position:center;
   background-size:cover;
   float: left;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
 }
 
 .pic26 {
@@ -453,6 +504,8 @@
   background-position:center;
   background-size:cover;
   float: left;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
 }
 
 .pic27 {
@@ -469,6 +522,8 @@
   background-position:center;
   background-size:cover;
   float: left;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
 }
 
 .pic28 {
@@ -485,6 +540,8 @@
   background-position:center;
   background-size:cover;
   float: left;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
 }
 
 .pic29 {
@@ -501,6 +558,8 @@
   background-position:center;
   background-size:cover;
   float: left;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
 }
 
 .pic30 {
@@ -517,6 +576,8 @@
   background-position:center;
   background-size:cover;
   float: left;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
 }
 
 .pic31 {
@@ -533,6 +594,8 @@
   background-position:center;
   background-size:cover;
   float: left;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
 }
 
 .pic32 {
@@ -549,6 +612,8 @@
   background-position:center;
   background-size:cover;
   float: left;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
 }
 
 .pic33 {
@@ -565,6 +630,8 @@
   background-position:center;
   background-size:cover;
   float: left;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
 }
 
 .pic34 {
@@ -581,6 +648,8 @@
   background-position:center;
   background-size:cover;
   float: left;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
 }
 
 .pic35 {
@@ -597,6 +666,8 @@
   background-position:center;
   background-size:cover;
   float: left;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
 }
 
 .pic36 {
@@ -613,6 +684,8 @@
   background-position:center;
   background-size:cover;
   float: left;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
 }
 
 .pic37 {
@@ -629,6 +702,8 @@
   background-position:center;
   background-size:cover;
   float: left;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
 }
 
 .pic38 {
@@ -645,6 +720,8 @@
   background-position:center;
   background-size:cover;
   float: left;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
 }
 
 .pic39 {
@@ -661,6 +738,8 @@
   background-position:center;
   background-size:cover;
   float: left;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
 }
 
 .pic40 {
@@ -677,6 +756,8 @@
   background-position:center;
   background-size:cover;
   float: left;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
 }
 
 .pic41 {
@@ -693,6 +774,8 @@
   background-position:center;
   background-size:cover;
   float: left;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
 }
 
 .pic42 {
@@ -709,6 +792,8 @@
   background-position:center;
   background-size:cover;
   float: left;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
 }
 
 .pic43 {
@@ -725,4 +810,199 @@
   background-position:center;
   background-size:cover;
   float: left;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
 }
+
+.removeintro {
+  opacity: 0;
+  pointer-events: none;
+  transition: all .5s ease-in-out;
+}
+
+.pic1:hover{
+  opacity:.60;
+}
+
+.pic2:hover{
+  opacity:.60;
+}
+
+.pic3:hover{
+  opacity:.60;
+}
+
+.pic4:hover{
+  opacity:.60;
+}
+
+.pic5:hover{
+  opacity:.60;
+}
+
+.pic6:hover{
+  opacity:.60;
+}
+
+.pic7:hover{
+  opacity:.60;
+}
+
+.pic8:hover{
+  opacity:.60;
+}
+
+.pic9:hover{
+  opacity:.60;
+}
+
+.pic10:hover{
+  opacity:.60;
+}
+
+.pic11:hover{
+  opacity:.60;
+}
+
+.pic12:hover{
+  opacity:.60;
+}
+
+.pic13:hover{
+  opacity:.60;
+}
+
+.pic14:hover{
+  opacity:.60;
+}
+
+.pic15:hover{
+  opacity:.60;
+}
+
+.pic16:hover{
+  opacity:.60;
+}
+
+.pic17:hover{
+  opacity:.60;
+}
+
+.pic18:hover{
+  opacity:.60;
+}
+
+.pic19:hover{
+  opacity:.60;
+}
+
+.pic20:hover{
+  opacity:.60;
+}
+
+.pic21:hover{
+  opacity:.60;
+}
+
+.pic22:hover{
+  opacity:.60;
+}
+
+.pic23:hover{
+  opacity:.60;
+}
+
+.pic24:hover{
+  opacity:.60;
+}
+
+.pic25:hover{
+  opacity:.60;
+}
+
+.pic26:hover{
+  opacity:.60;
+}
+
+.pic27:hover{
+  opacity:.60;
+}
+
+.pic28:hover{
+  opacity:.60;
+}
+
+.pic29:hover{
+  opacity:.60;
+}
+
+.pic30:hover{
+  opacity:.60;
+}
+
+.pic31:hover{
+  opacity:.60;
+}
+
+.pic32:hover{
+  opacity:.60;
+}
+
+.pic33:hover{
+  opacity:.60;
+}
+
+.pic34:hover{
+  opacity:.60;
+}
+
+.pic35:hover{
+  opacity:.60;
+}
+
+.pic36:hover{
+  opacity:.60;
+}
+
+.pic37:hover{
+  opacity:.60;
+}
+
+.pic38:hover{
+  opacity:.60;
+}
+
+.pic39:hover{
+  opacity:.60;
+}
+
+.pic40:hover{
+  opacity:.60;
+}
+
+.pic41:hover{
+  opacity:.60;
+}
+
+.pic42:hover{
+  opacity:.60;
+}
+
+.pic43:hover{
+  opacity:.60;
+}
+
+
+
+
+
+
+
+/*img {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+}*/
+

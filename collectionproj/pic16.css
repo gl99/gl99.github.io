@@ -1,0 +1,169 @@
+.pic16{
+  position: absolute;
+  top:14vh;
+  left:30vw;
+  width:307px;
+  height:400px;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic16.jpg);
+  background-position:center;
+  background-size:cover;
+  float: left;
+  transition: all .25s ease-in-out;
+  }
+
+.similar{
+  position: absolute;
+  top: 14vh;
+  left: 72.5vw;
+  text-align:center;
+  font-size: 25px;
+  font-color:black;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.otherpics{
+
+  position: absolute;
+  top:150px;
+  left:70vw;
+  width:20vw;
+  height:20vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
+}
+
+.pica {
+  position: relative;
+  width:15vw;
+  height:15vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic7.jpg);
+  background-position:center;
+  background-size:cover;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
+}
+
+.picb {
+  position: relative;
+  width:15vw;
+  height:15vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic5.jpg);
+  background-position:center;
+  background-size:cover;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
+}
+
+.picc {
+  position: relative;
+  width:15vw;
+  height:15vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  background-image:url(pic15.jpg);
+  background-position:center;
+  background-size:cover;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
+}
+
+.pica:hover {
+  height: 18vh;
+  width: 18vw;
+}
+
+.picb:hover {
+  height: 18vh;
+  width: 18vw;
+}
+
+.picc:hover {
+  height: 18vh;
+  width: 18vw;
+}
+
+.back{
+  position: absolute;
+  top: 5vh;
+  left: 10.5vw;
+  text-align:center;
+  font-size: 20px;
+  font-color:black;
+  font-family: 'Source Sans Pro', sans-serif;
+  cursor:pointer;
+}
+
+.bar {
+  position: absolute;
+  top: 6vh;
+  left: 70vw;
+  width: 5px;
+  height: 550px;
+  background-color: rgb(251, 216, 118);
+}
+
+@media (max-width: 1240px){
+
+.otherpics{
+ position: relative;
+ float:left;
+  top:600px;
+  left:18vw;
+  width:15vw;
+  height:15vh;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  cursor: pointer;
+   transition: all .25s ease-in-out;
+	}
+
+.similar{
+  position: absolute;
+  top: 587px;
+  left: 35vw;
+  text-align:center;
+  font-size: 20px;
+  font-color:black;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.pic16{
+	left:30.25vw;
+}
+
+.bar {
+  position: absolute;
+  top: 78vh;
+  left: 5vw;
+  width: 90%;
+  height: 5px;
+  background-color: rgb(251, 216, 118);
+
+}
+
+@media (max-width:600px){
+
+	.pic16{
+		left:8.5vw;
+	}
+}
