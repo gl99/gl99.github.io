@@ -203,7 +203,7 @@ background-repeat: repeat;
   top: 357px;
   left: 0vw;
   width: 85vw;
-  height: 50vw;
+  height: 51vw;
   background-image: url(blueslantbox.svg);
   background-size: cover;
 }
@@ -223,7 +223,7 @@ background-repeat: repeat;
 
 .box3 {
   position: absolute;
-  top: 647px;
+  top: 639px;
   left: 0vw;
   width: 101vw;
   height: 23vw;
