@@ -132,16 +132,6 @@
 
 
 
-
-/*.bar {
-  position: absolute;
-  top: 48vh;
-  left: 4.2vw;
-  width: 90%;
-  height: 5px;
-  background-color: rgb(251, 216, 118);
-}*/
-
 .box {
   position:absolute;
   background-image:url(whitebox.svg);
@@ -151,7 +141,6 @@
   width:105%;
 }
 
-}
 
 
 
