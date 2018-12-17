@@ -1,3 +1,124 @@
+.marblebg {
+  position: absolute;
+ left:-1vw;
+ top: -2vh;
+  width: 105%;
+  height: 276%;
+  background-image: url("marblebg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.pics {
+  position:relative;
+  top:5px;
+  left:5.4vw;
+}
+
+.fancytitle{
+  position: absolute;
+  top: -86.5vh;
+  left: -78.5vw;
+  width: 260vw;
+  height:250vh;
+  background-image: url(fancytitle.svg);
+  background-size: cover;
+  background-repeat: none;
+  transform: scale(.3);
+}
+
+
+
+.enter{
+  position: absolute;
+  top: 85vh;
+  left: 47vw;
+  text-align:center;
+  font-size: 3.5vw;
+  font-color:black;
+  font-family: 'Source Sans Pro', sans-serif;
+  cursor:pointer;
+}
+
+@media (max-width: 1250px) {
+.fancytitle{
+  position: absolute;
+  top: -87.5vh;
+  left: -100.5vw;
+  width: 300vw;
+  height:250vh;
+  background-image: url(fancytitle.svg);
+  background-size: cover;
+  background-repeat: none;
+  transform: scale(.25);
+}
+}
+@media (max-width: 1000px) {
+
+.fancytitle{
+  position: absolute;
+  top: -88.5vh;
+  left: -124.5vw;
+  width: 350vw;
+  height:250vh;
+  background-image: url(fancytitle.svg);
+  background-size: cover;
+  background-repeat: none;
+  transform: scale(.22);
+}
+}
+
+@media (max-width: 800px) {
+
+.fancytitle{
+  position: absolute;
+  top: -90vh;
+  left: -197vw;
+  width: 500vw;
+  height:250vh;
+  background-image: url(fancytitle.svg);
+  background-size: cover;
+  background-repeat: none;
+  transform: scale(.14);
+}
+
+
+.enter{
+  top:60vh;
+  left:48vw;
+}
+}
+
+
+
+
+
+@media (max-width: 500px) {
+
+.marblebg{
+  height: 356vh;
+}
+
+.box{
+  height: 335%;
+}
+
+.fancytitle{
+  position: absolute;
+  top: -92.5vh;
+  left: -400vw;
+  width: 900vw;
+  height:250vh;
+  background-image: url(fancytitle.svg);
+  background-size: cover;
+  background-repeat: none;
+  transform: scale(.08);
+}
+
+}
+
+
+
 .title {
   position: absolute;
   top: 30vh;
@@ -7,39 +128,32 @@
   font-color: black;
   font-family: 'Great Vibes', cursive;
 }
-.enter{
-  position: absolute;
-  top: 65vh;
-  left: 47vw;
-  text-align:center;
-  font-size: 3vw;
-  font-color:black;
-  font-family: 'Source Sans Pro', sans-serif;
-  cursor:pointer;
-}
-.bar {
+
+
+
+
+
+/*.bar {
   position: absolute;
   top: 48vh;
   left: 4.2vw;
   width: 90%;
   height: 5px;
   background-color: rgb(251, 216, 118);
-}
+}*/
 
 .box {
   position:absolute;
   background-image:url(whitebox.svg);
   top:0px;
   left:0px;
-  height:255%;
-  width:103%;
+  height:274%;
+  width:105%;
 }
 
-.pics {
-  position:relative;
-  top:5px;
-  left:5.3vw;
 }
+
+
 
 .pic1 {
   position: relative;

@@ -1,3 +1,14 @@
+.marblebg {
+  position: absolute;
+ left: 0vw;
+ top: 0vh;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("marblebg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 .pic16{
   position: absolute;
   top:14vh;
@@ -86,38 +97,36 @@
 }
 
 .pica:hover {
-  height: 18vh;
-  width: 18vw;
+  opacity:.60;
 }
 
 .picb:hover {
-  height: 18vh;
-  width: 18vw;
+opacity:.60;
 }
 
 .picc:hover {
-  height: 18vh;
-  width: 18vw;
+opacity:.60;
 }
 
-.back{
+a.back{
   position: absolute;
-  top: 5vh;
-  left: 10.5vw;
+  top: 3vh;
+  left: 9vw;
   text-align:center;
-  font-size: 20px;
-  font-color:black;
-  font-family: 'Source Sans Pro', sans-serif;
-  cursor:pointer;
+  font-size: 30px;
+  font-color: black;
+  font-family: 'Great Vibes', cursive;
+  text-decoration: none;
+  
 }
 
 .bar {
   position: absolute;
-  top: 6vh;
-  left: 70vw;
-  width: 5px;
+  top: 7vh;
+  left: 63vw;
+  width: 100px;
   height: 550px;
-  background-color: rgb(251, 216, 118);
+  background-image: url(fancypicbar.svg)
 }
 
 @media (max-width: 1240px){
@@ -126,7 +135,7 @@
  position: relative;
  float:left;
   top:600px;
-  left:18vw;
+  left:24vw;
   width:15vw;
   height:15vh;
   margin-top:10px;
@@ -140,7 +149,7 @@
 .similar{
   position: absolute;
   top: 587px;
-  left: 35vw;
+  left: 44vw;
   text-align:center;
   font-size: 20px;
   font-color:black;
@@ -153,12 +162,12 @@
 
 .bar {
   position: absolute;
-  top: 78vh;
-  left: 5vw;
-  width: 90%;
-  height: 5px;
-  background-color: rgb(251, 216, 118);
-
+  top: 71vh;
+  left: 20vw;
+  width: 500px;
+  height: 100px;
+  background-image: url(fancypicbar2.svg)
+}
 }
 
 @media (max-width:600px){
@@ -166,4 +175,16 @@
 	.pic16{
 		left:8.5vw;
 	}
+
+    .bar{
+  left:-12vw;
+}
+
+.similar{
+  left:34vw;
+}
+
+.otherpics{
+  left:17vw;
+}
 }
