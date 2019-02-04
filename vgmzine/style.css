@@ -41,7 +41,7 @@ word-spacing: 0px;
 
 h2{
 
-top: 2.3vh;
+top: 2.35vh;
 
 position: relative;
 margin-left: 0vw;
@@ -93,6 +93,13 @@ a{
     color: gray;
 }
 
+.caption { 
+	font-size: 80%;
+	font-family: 'Lato', sans-serif;
+    text-align: center; 
+    color: gray;
+}
+
  /*.titlepic{
 	position: relative;
 	margin-top: 3.8vh;
@@ -116,8 +123,9 @@ a{
     margin: 0 auto;
 	/*border: 3px solid #ddd;
 	border-color: rgb(53,0,140);*/
-
 }
+
+
 .video {
     position: absolute;
     top: 0;
