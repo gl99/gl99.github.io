@@ -1,0 +1,195 @@
+html, body {
+  margin: 0;
+  padding: 1.5vw;
+}
+
+body {
+	width: 94vw;
+	font-family: 'Lato', sans-serif;
+}
+
+img {
+	width: 100%;
+}
+
+p {
+	line-height: 24px;
+}
+
+h1{
+/*position: absolute;
+top:0px;
+width:96vw;*/
+position: relative;
+top:5vh;
+margin-top: -10px;
+margin-left: 0vw;
+margin-right: 0vw;
+color:rgb(0,216,255);
+/*font-family: 'Press Start 2P', cursive;*/
+/*font-family: 'Teko', sans-serif;*/
+font-family: 'ZCOOL QingKe HuangYou', cursive;
+background-color:rgb(53,0,140);
+padding-left: 15px;
+padding-right: 10px;
+padding-top: 20px;
+padding-bottom: 20px;
+font-size: 32px;
+letter-spacing:3px;
+word-spacing: 0px;
+}
+
+h2{
+
+top: 2.3vh;
+
+position: relative;
+margin-left: 0vw;
+/*top:-26.016vh;*/
+width:28.5vw;
+color:rgb(53,0,140);
+background-color:rgb(0,216,255);
+padding-left:15px;
+padding-right: 0px;
+padding-top: 10px;
+padding-bottom: 10px;
+font-size: 18px;
+font-family: 'ZCOOL QingKe HuangYou', cursive;
+letter-spacing: 1px;
+}
+
+
+.title{
+	position: relative;
+	text-align: center;
+	font-family: 'Press Start 2P', cursive;
+	padding-bottom: -100px;
+	margin-bottom: -30px;
+	margin-top: -17px;
+	color:rgb(53,0,140);
+	background-color:rgb(53,0,140);
+	padding-bottom: 2px;
+	padding-left: 11px;
+	margin-left: -11px;
+	padding-right: 11px;
+	margin-right: -12px;
+	padding-top: 5px;
+	letter-spacing: 2px;
+	line-height: 20px;
+	text-align: center;
+
+}
+
+a{
+	color: white;
+	text-decoration: none;
+} 
+
+
+.image .caption { 
+	font-size: 80%;
+	font-family: 'Lato', sans-serif;
+    text-align: center; 
+    color: gray;
+}
+
+ /*.titlepic{
+	position: relative;
+	margin-top: 3.8vh;
+	margin-left: -1;
+	transform: scale(1.066);
+}*/
+
+/*.pullquote{
+	font-weight: bold;
+	font-size: 32px;
+	color:rgb(200,150,120);
+	width: 74vw;
+	margin-left: 10vw;
+}*/
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    margin: 0 auto;
+	/*border: 3px solid #ddd;
+	border-color: rgb(53,0,140);*/
+
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.question{
+	background-color:rgb(53,0,140);
+	color:rgb(0,216,255);
+	padding-left: 3vw;
+	margin-left: -3vw;
+	padding-top: .002vh;
+	padding-bottom: .002vh;
+}
+
+
+/*.smashbros{
+	position: relative;
+	float:left;
+
+
+	width: 20%;
+}
+
+.witcher{
+	position: relative;
+	float:left;
+
+
+	width: 20%;
+}
+
+.celeste{
+	position: relative;
+	float:left;
+
+
+	width: 20%;
+}
+
+.xenoblade{
+	position: relative;
+	float:left;
+
+
+	width: 20%;
+}*/
+
+	/*height: auto;
+	column-count: 2;
+	column-rule: solid;
+	column-rule-color: rgb(53,0,140);
+	background-color: rgb(0,216,255);
+	outline-color: rgb(0,216,255);
+	outline-width: 10px;*/
+}
+/*.answer{
+	background-color:rgb(53,0,140);
+	color:rgb(0,216,255);
+	padding-right: 3vw;
+	margin-right: -3vw;
+	padding-top: .002vh;
+	padding-bottom: .002vh;
+}*/
+
+/*.pbox{
+	position: absolute;
+	top: 0px;
+	left: 0vw;
+	width: 100vw;
+	height:16vh;
+	background-color:rgb(53,0,140);
+}*/
