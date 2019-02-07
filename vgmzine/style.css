@@ -41,6 +41,7 @@ word-spacing: 0px;
 h2{
 
 top: 1vh;
+/*width:50vw;*/
 
 position: relative;
 margin-left: 0vw;
@@ -192,6 +193,16 @@ a{
 
 .xenoblade{
 	position: relative;
+	float:left;
+	margin-right: 5.5vw;
+
+
+
+	width: 18vw;
+}
+
+.nier{
+	position:relative;
 	float:left;
 	margin-right: 5.5vw;
 

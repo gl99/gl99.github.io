@@ -31,7 +31,7 @@ font-family: 'ZCOOL QingKe HuangYou', cursive;
 background-color:rgb(53,0,140);
 padding-left: 3.6vw;
 padding-right: 12vw;
-padding-top: 4vh;
+padding-top:17vh;
 margin-top: -4vh;
 padding-bottom: 4vh;
 font-size: 60px;
@@ -41,17 +41,17 @@ word-spacing: 0px;
 
 h2{
 
-top: 36vh;
+top: -6.5vh;
 
 position: relative;
 margin-left: 0vw;
-width:90vw;
+width:90.07vw;
 color:rgb(53,0,140);
 background-color:rgb(0,216,255);
 padding-left: 4vw;
 padding-right: -15vw;
-padding-top: 1.3vw;
-padding-bottom: 1.3vw;
+padding-top: 1.5vh;
+padding-bottom: 1.5vh;
 font-size: 24px;
 font-family: 'ZCOOL QingKe HuangYou', cursive;
 letter-spacing: 2px;
@@ -74,6 +74,14 @@ letter-spacing: 2px;
   min-width: 100%; 
   min-height: 50%;
 }*/
+
+.bignote{
+	transform: scale(1.001);
+		background-color:rgb(53,0,140);
+		padding-top: 14.5vh;
+		margin-top: -2vh;
+
+}
 
 .title{
 	position: relative;
@@ -163,49 +171,32 @@ a{
 .otherosts{
 	position: relative;
 	top:7.9vh;	
+	width:94vw;
+	height: 3vh;
 }
 
 
 
 .smashbros{
 	position: relative;
-	float:left;
-	margin-right: 21px;
-	margin-left: 3vw;
-
-
-	width: 18vw;
 }
 
 .witcher{
 	position: relative;
-	float:left;
-	margin-right: 21px;
-
-
-
-	width: 18vw;
 }
 
 .celeste{
 	position: relative;
-	float:left;
-	margin-right: 0px;
-
-
-
-	width: 18vw;
 }
 
 .xenoblade{
 	position: relative;
-	float:left;
-	margin-right: 21px;
-
-
-
-	width: 18vw;
 }
+
+.nier{
+	position:relative;
+}
+
 
 h3{
 position: absolute;
