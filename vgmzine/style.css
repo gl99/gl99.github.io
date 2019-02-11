@@ -6,6 +6,7 @@ html, body {
 body {
 	width: 94vw;
 	font-family: 'Lato', sans-serif;
+	/*max-width: 700px;*/
 }
 
 img {
@@ -42,7 +43,7 @@ h2{
 
 top: 1vh;
 /*width:50vw;*/
-
+width: 73vw;
 position: relative;
 margin-left: 0vw;
 color:rgb(53,0,140);
@@ -228,6 +229,33 @@ padding-bottom: 25vw;
 font-size: 18px;
 font-family: 'ZCOOL QingKe HuangYou', cursive;
 letter-spacing: 1px;
+}
+
+
+
+h5{
+
+/*width:50vw;*/
+width: 73vw;
+position: relative;
+margin-left: -4vw;
+color:rgb(53,0,140);
+background-color:rgb(0,216,255);
+padding-left: 4vw;
+padding-right: -5vw;
+padding-top: 1.3vw;
+padding-bottom: 1.3vw;
+margin-right: .5vw;
+font-size: 20px;
+font-family: 'ZCOOL QingKe HuangYou', cursive;
+letter-spacing: 1px;
+}
+
+.pullquote{
+	font-size:26px;
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	letter-spacing: .5px;
+	color:rgb(53,0,140);
 }
 
 	/*height: auto;
