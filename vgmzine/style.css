@@ -3,10 +3,17 @@ html, body {
   padding: 1.5vw;
 }
 
+html{
+	  overflow-x: hidden;
+
+}
+
 body {
 	width: 94vw;
 	font-family: 'Lato', sans-serif;
 	/*max-width: 700px;*/
+	margin:auto;
+	position: relative;
 }
 
 img {
@@ -132,6 +139,7 @@ a{
     height: 0;
     padding-bottom: 56.25%;
     margin: 0 auto;
+    margin-bottom: 2px;
 	/*border: 3px solid #ddd;
 	border-color: rgb(53,0,140);*/
 }
@@ -148,7 +156,7 @@ a{
 .question{
 	background-color:rgb(53,0,140);
 	color:rgb(0,216,255);
-	padding-left: 3vw;
+	padding-left: 3.5vw;
 	margin-left: -3vw;
 	padding-top: .3vh;
 	padding-bottom: .3vh;
@@ -216,7 +224,7 @@ h3{
 position: absolute;
 margin-left: 0vw;
 /*top:-26.016vh;*/
-width:94.3vw;
+width:94vw;
 color:rgb(0,216,255);
 /*font-family: 'Press Start 2P', cursive;*/
 /*font-family: 'Teko', sans-serif;*/
