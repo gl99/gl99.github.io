@@ -16,7 +16,7 @@ $(document).ready(function(){
     
 	setTimeout(function(){
 	    $(".reset").addClass("alarm"); 
-	  }, 12000);
+	  }, 15000);
 
 	$(".reset").click(function() { 
 	    $(".reset").removeClass("alarm");
@@ -24,7 +24,7 @@ $(document).ready(function(){
 
 	setTimeout(function(){
 	    $(".background").addClass("alarm"); 
-	  }, 12000);
+	  }, 15000);
 
 	$(".reset").click(function() { 
 	    $(".background").removeClass("alarm");
@@ -32,7 +32,7 @@ $(document).ready(function(){
 
 	setTimeout(function(){
 	    $(".circle1").addClass("alarm"); 
-	  }, 12000);
+	  }, 15000);
 
 	$(".reset").click(function() { 
 	    $(".circle1").removeClass("alarm");
@@ -40,7 +40,7 @@ $(document).ready(function(){
 
 		setTimeout(function(){
 	    $(".circle2").addClass("alarm"); 
-	  }, 12000);
+	  }, 15000);
 
 	$(".reset").click(function() { 
 	    $(".circle2").removeClass("alarm");
@@ -48,7 +48,7 @@ $(document).ready(function(){
 
 		setTimeout(function(){
 	    $(".circle3").addClass("alarm"); 
-	  }, 12000);
+	  }, 15000);
 
 	$(".reset").click(function() { 
 	    $(".circle3").removeClass("alarm");
@@ -110,7 +110,7 @@ $(document).ready(function(){
    }, circle3time*4);
     
 
-   var resettime= 3000;
+   var resettime= 2500;
    setInterval(function() {
    	$(".reset.alarm").each(function(){
 		var pos= Math.random()*90+"vw";
