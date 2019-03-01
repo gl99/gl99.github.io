@@ -13,9 +13,13 @@ $(document).ready(function(){
     for(var i=0; i<seconds; i++){
     	$("body").append('<div class="circle1"></div>');
     }
-    
+    movecircle3();
+    movecircle2();
+    movecircle1();
+
 	setTimeout(function(){
 	    $(".reset").addClass("alarm"); 
+	    moveresetbutton();
 	  }, 15000);
 
 	$(".reset").click(function() { 
@@ -55,7 +59,7 @@ $(document).ready(function(){
 	  });
 
    var circle1time= 1000;
-   setInterval(function(){
+   function movecircle1(){
    	$(".circle1").each(function(){
 		var pos= Math.random()*90+"vw";
 	    $(this).animate({"left" : pos, "top" : 0}, circle1time, "linear", function(){
@@ -64,17 +68,17 @@ $(document).ready(function(){
 	    		var pos3= Math.random()*90+"vw";
 	    		$(this).animate({"left" : pos3, "top" : "89vh"}, circle1time, "linear", function(){
 	    			var pos4= Math.random()*90+"vh";
-	    			$(this).animate({"left" : 0, "top" : pos4},  circle1time, "linear");
+	    			$(this).animate({"left" : 0, "top" : pos4},  circle1time, "linear", movecircle1);
 	    		});
 	    	});
 	    });
    	});
    
-   }, circle1time*4);
+   }
 
 
    var circle2time= 1900;
-   setInterval(function() {
+   function movecircle2(){
    	$(".circle2").each(function(){
 		var pos= Math.random()*90+"vw";
 	    $(this).animate({"left" : pos, "top" : 0}, circle2time, "linear", function(){
@@ -83,16 +87,16 @@ $(document).ready(function(){
 	    		var pos3= Math.random()*90+"vw";
 	    		$(this).animate({"left" : pos3, "top" : "89vh"}, circle2time, "linear", function(){
 	    			var pos4= Math.random()*90+"vh";
-	    			$(this).animate({"left" : 0, "top" : pos4}, circle2time, "linear");
+	    			$(this).animate({"left" : 0, "top" : pos4}, circle2time, "linear", movecircle2);
 	    		});
 	    	});
 	    });
    	});
    
-   }, circle2time*4);
+   }
 
-   var circle3time= 2900;
-   setInterval(function() {
+   var circle3time= 2800;
+   function movecircle3(){
    	$(".circle3").each(function(){
 		var pos= Math.random()*90+"vw";
 	    $(this).animate({"left" : pos, "top" : 0}, circle3time, "linear", function(){
@@ -101,30 +105,32 @@ $(document).ready(function(){
 	    		var pos3= Math.random()*90+"vw";
 	    		$(this).animate({"left" : pos3, "top" : "85vh"}, circle3time, "linear", function(){
 	    			var pos4= Math.random()*90+"vh";
-	    			$(this).animate({"left" : 0, "top" : pos4}, circle3time, "linear");
+	    			$(this).animate({"left" : 0, "top" : pos4}, circle3time, "linear", movecircle3);
 	    		});
 	    	});
 	    });
    	});
-   
-   }, circle3time*4);
+   }
     
 
    var resettime= 2500;
-   setInterval(function() {
-   	$(".reset.alarm").each(function(){
-		var pos= Math.random()*90+"vw";
-	    $(this).animate({"left" : pos, "top" : 0}, resettime, "linear", function(){
-	    	var pos2= Math.random()*90+"vh";
-	    	$(this).animate({"left" : "90vw", "top" : pos2}, resettime, "linear", function(){
-	    		var pos3= Math.random()*90+"vw";
-	    		$(this).animate({"left" : pos3, "top" : "83vh"}, resettime, "linear", function(){
-	    			var pos4= Math.random()*90+"vh";
-	    			$(this).animate({"left" : 0, "top" : pos4}, resettime, "linear");
-	    		});
-	    	});
-	    });
-   	});
-   
-   }, resettime*4);
+   function moveresetbutton(){
+	   	$(".reset.alarm").each(function(){
+			var pos= Math.random()*90+"vw";
+		    $(this).animate({"left" : pos, "top" : 0}, resettime, "linear", function(){
+		    	var pos2= Math.random()*90+"vh";
+		    	$(this).animate({"left" : "90vw", "top" : pos2}, resettime, "linear", function(){
+		    		var pos3= Math.random()*90+"vw";
+		    		$(this).animate({"left" : pos3, "top" : "83vh"}, resettime, "linear", function(){
+		    			var pos4= Math.random()*90+"vh";
+		    			$(this).animate({"left" : 0, "top" : pos4}, resettime, "linear", moveresetbutton);
+		    		});
+		    	});
+		    });
+	   	});
+   }
+
+
+
+
 });
