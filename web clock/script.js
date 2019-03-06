@@ -13,9 +13,23 @@ $(document).ready(function(){
     for(var i=0; i<seconds; i++){
     	$("body").append('<div class="circle1"></div>');
     }
-    movecircle3();
-    movecircle2();
-    movecircle1();
+    // movecircle3();
+
+    // movecircle2();
+    
+    // movecircle1();
+
+    $(".circle1").each(function(){
+    	movecircle1(this);
+    })
+
+    $(".circle2").each(function(){
+    	movecircle2(this);
+    })
+
+    $(".circle3").each(function(){
+    	movecircle3(this);
+    })
 
 	setTimeout(function(){
 	    $(".reset").addClass("alarm"); 
@@ -59,8 +73,8 @@ $(document).ready(function(){
 	  });
 
    var circle1time= 1000;
-   function movecircle1(){
-   	$(".circle1").each(function(){
+   function movecircle1(div){
+   	$(div).each(function(){
 		var pos= Math.random()*90+"vw";
 	    $(this).animate({"left" : pos, "top" : 0}, circle1time, "linear", function(){
 	    	var pos2= Math.random()*90+"vh";
@@ -68,7 +82,9 @@ $(document).ready(function(){
 	    		var pos3= Math.random()*90+"vw";
 	    		$(this).animate({"left" : pos3, "top" : "89vh"}, circle1time, "linear", function(){
 	    			var pos4= Math.random()*90+"vh";
-	    			$(this).animate({"left" : 0, "top" : pos4},  circle1time, "linear", movecircle1);
+	    			$(this).animate({"left" : 0, "top" : pos4},  circle1time, "linear", function(){
+	    				movecircle1(this);
+	    			});
 	    		});
 	    	});
 	    });
@@ -78,8 +94,8 @@ $(document).ready(function(){
 
 
    var circle2time= 1900;
-   function movecircle2(){
-   	$(".circle2").each(function(){
+   function movecircle2(div){
+   	$(div).each(function(){
 		var pos= Math.random()*90+"vw";
 	    $(this).animate({"left" : pos, "top" : 0}, circle2time, "linear", function(){
 	    	var pos2= Math.random()*90+"vh";
@@ -87,7 +103,9 @@ $(document).ready(function(){
 	    		var pos3= Math.random()*90+"vw";
 	    		$(this).animate({"left" : pos3, "top" : "89vh"}, circle2time, "linear", function(){
 	    			var pos4= Math.random()*90+"vh";
-	    			$(this).animate({"left" : 0, "top" : pos4}, circle2time, "linear", movecircle2);
+	    			$(this).animate({"left" : 0, "top" : pos4}, circle2time, "linear", function(){
+	    				movecircle2(this);
+	    			});
 	    		});
 	    	});
 	    });
@@ -96,8 +114,8 @@ $(document).ready(function(){
    }
 
    var circle3time= 2800;
-   function movecircle3(){
-   	$(".circle3").each(function(){
+   function movecircle3(div){
+   	$(div).each(function(){
 		var pos= Math.random()*90+"vw";
 	    $(this).animate({"left" : pos, "top" : 0}, circle3time, "linear", function(){
 	    	var pos2= Math.random()*90+"vh";
@@ -105,7 +123,9 @@ $(document).ready(function(){
 	    		var pos3= Math.random()*90+"vw";
 	    		$(this).animate({"left" : pos3, "top" : "85vh"}, circle3time, "linear", function(){
 	    			var pos4= Math.random()*90+"vh";
-	    			$(this).animate({"left" : 0, "top" : pos4}, circle3time, "linear", movecircle3);
+	    			$(this).animate({"left" : 0, "top" : pos4}, circle3time, "linear", function(){
+	    				movecircle3(this);
+	    			});
 	    		});
 	    	});
 	    });
