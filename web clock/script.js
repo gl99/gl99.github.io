@@ -13,6 +13,60 @@ $(document).ready(function(){
     for(var i=0; i<seconds; i++){
     	$("body").append('<div class="circle1"></div>');
     }
+    setInterval(function(){
+	    var time = new Date();
+	    var hour = time.getHours();
+	    var minutes = time.getMinutes();
+	    var seconds = time.getSeconds();
+	    if (seconds>$(".circle1").length){
+	    	for(var i=0; i<seconds-$(".circle1").length; i++){
+    			$("body").append('<div class="circle1"></div>');
+    			movecircle1($(".circle1").last());
+    		}
+	    }
+	    if (seconds<$(".circle1").length){
+	    	for(var i=0; i<$(".circle1").length-seconds; i++){
+	    		$(".circle1").get(0).remove()
+	    	}
+	    }
+    }, 1000);
+
+    setInterval(function(){
+	    var time = new Date();
+	    var hour = time.getHours();
+	    var minutes = time.getMinutes();
+	    var seconds = time.getSeconds();
+	    if (minutes>$(".circle2").length){
+	    	for(var i=0; i<minutes-$(".circle2").length; i++){
+    			$("body").append('<div class="circle2"></div>');
+    			movecircle2($(".circle2").last());
+    		}
+	    }
+	    if (minutes<$(".circle2").length){
+	    	for(var i=0; i<$(".circle2").length-minutes; i++){
+	    		$(".circle2").get(0).remove()
+	    	}
+	    }
+    }, 1900);
+
+    setInterval(function(){
+	    var time = new Date();
+	    var hour = time.getHours();
+	    var minutes = time.getMinutes();
+	    var seconds = time.getSeconds();
+	    if (hours>$(".circle3").length){
+	    	for(var i=0; i<hours-$(".circle3").length; i++){
+    			$("body").append('<div class="circle3"></div>');
+    			movecircle3($(".circle3").last());
+    		}
+	    }
+	    if (hours<$(".circle3").length){
+	    	for(var i=0; i<$(".circle3").length-hours; i++){
+	    		$(".circle3").get(0).remove()
+	    	}
+	    }
+    }, 2800);
+
     // movecircle3();
 
     // movecircle2();
@@ -133,15 +187,15 @@ $(document).ready(function(){
    }
     
 
-   var resettime= 2500;
+   var resettime= 2200;
    function moveresetbutton(){
 	   	$(".reset.alarm").each(function(){
 			var pos= Math.random()*90+"vw";
 		    $(this).animate({"left" : pos, "top" : 0}, resettime, "linear", function(){
 		    	var pos2= Math.random()*90+"vh";
-		    	$(this).animate({"left" : "90vw", "top" : pos2}, resettime, "linear", function(){
+		    	$(this).animate({"left" : "92vw", "top" : pos2}, resettime, "linear", function(){
 		    		var pos3= Math.random()*90+"vw";
-		    		$(this).animate({"left" : pos3, "top" : "83vh"}, resettime, "linear", function(){
+		    		$(this).animate({"left" : pos3, "top" : "85vh"}, resettime, "linear", function(){
 		    			var pos4= Math.random()*90+"vh";
 		    			$(this).animate({"left" : 0, "top" : pos4}, resettime, "linear", moveresetbutton);
 		    		});
