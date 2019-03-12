@@ -72,7 +72,7 @@
 .circle1.alarm {
 	background-color: red;
 	animation-name: pulse;
-	animation-duration: 1.25s;
+	animation-duration: 1.5s;
 	animation-iteration-count: infinite;
 
 
@@ -82,7 +82,7 @@
 .circle2.alarm {
 	background-color: red;
 	animation-name: pulse;
-	animation-duration: 1.25s;
+	animation-duration: 1.5s;
 	animation-iteration-count: infinite;
 
 
@@ -92,7 +92,7 @@
 .circle3.alarm {
 	background-color: red;
 	animation-name: pulse;
-	animation-duration: 1.25s;
+	animation-duration: 1.5s;
 	animation-iteration-count: infinite;
 
 }
