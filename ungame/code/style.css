@@ -61,7 +61,7 @@ body {
   animation-name: spriteSheet;
   animation-duration: 1100ms;
   animation-timing-function: steps(4); /* number of frames in sprite (not counting the final blank space) */
-  background-position: 0 center;
+  background-position: 0 bottom;
   background-size: cover;
   transition-property: left, margin-bottom;
   transition-timing-function: linear, ease-in-out;
@@ -72,8 +72,8 @@ body {
 .hero.walking {
   background-image: url("./img/walking-sprite.png");
   animation-name: spriteSheet;
-  animation-duration: 300ms;
-  animation-timing-function: steps(4); /* number of frames in sprite (not counting the final blank space) */
+  animation-duration: 700ms;
+  animation-timing-function: steps(9); /* number of frames in sprite (not counting the final blank space) */
 }
 
 .hero.left {
@@ -96,14 +96,15 @@ body {
 
 .monster {
   position: absolute;
+  transform: scale(2);
   width: 170px;
   height: 170px;
   bottom: 490px;
   background-image: url("./img/monster-sprite.png");
   background-size: cover;
   animation-name: spriteSheet;
-  animation-duration: 500ms;
-  animation-timing-function: steps(2); /* number of frames in sprite (not counting the final blank space) */
+  animation-duration: 800ms;
+  animation-timing-function: steps(4); /* number of frames in sprite (not counting the final blank space) */
   animation-iteration-count: infinite;  
   transition-property: right;
   transition-timing-function: linear;
