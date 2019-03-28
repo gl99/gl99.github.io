@@ -26,7 +26,7 @@ body {
   line-height: 30px;
   font-size: 16px;
   text-align: center;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Press Start 2P', cursive;
   font-weight: bold;
   color: white;
   opacity: 0;
@@ -37,6 +37,21 @@ body {
 
 .instructions.show {
   opacity: 1;
+}
+
+.score {
+  position: absolute;
+  top: 30px;
+  right: 80px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  /*background-color: rgb(243, 128, 25);*/
+  color: rgb(232, 209, 15);
+  font-family: 'Press Start 2P', cursive;
+  font-size: 50px;
+  text-align: center;
 }
 
 .background {
@@ -67,6 +82,7 @@ body {
   transition-timing-function: linear, ease-in-out;
   pointer-events: none;
   animation-iteration-count: infinite;
+  pointer-events: none;
 }
 
 .hero.walking {
@@ -99,7 +115,7 @@ body {
   transform: scale(2);
   width: 170px;
   height: 170px;
-  bottom: 490px;
+  bottom: 450px;
   background-image: url("./img/monster-sprite.png");
   background-size: cover;
   animation-name: spriteSheet;
@@ -108,6 +124,7 @@ body {
   animation-iteration-count: infinite;  
   transition-property: right;
   transition-timing-function: linear;
+  pointer-events: none;
 }
 
  .monster.was-hit {
