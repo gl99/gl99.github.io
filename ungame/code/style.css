@@ -28,7 +28,7 @@ body {
   text-align: center;
   font-family: 'Press Start 2P', cursive;
   font-weight: bold;
-  color: white;
+  color: rgb(232, 209, 15);
   opacity: 0;
   z-index: 10;
   pointer-events: none;
@@ -42,8 +42,10 @@ body {
 .score {
   position: absolute;
   top: 30px;
-  right: 80px;
-  width: 40px;
+  right: 0px;
+  left: 0px;
+  margin: 0 auto;
+  width: 100%;
   height: 40px;
   line-height: 40px;
   border-radius: 50%;
@@ -52,6 +54,7 @@ body {
   font-family: 'Press Start 2P', cursive;
   font-size: 50px;
   text-align: center;
+  text-shadow: 3px 3px #b49209;
 }
 
 .background {
@@ -122,14 +125,14 @@ body {
   animation-duration: 800ms;
   animation-timing-function: steps(4); /* number of frames in sprite (not counting the final blank space) */
   animation-iteration-count: infinite;  
-  transition-property: right;
-  transition-timing-function: linear;
   pointer-events: none;
 }
 
  .monster.was-hit {
   opacity: 0;
-  transition: all 300ms;
+  transition: opacity 500ms;
+  background-image: url("./img/monster-hit.png");
+  animation-timing-function: steps(1);
  }
 
 .preload-image {
