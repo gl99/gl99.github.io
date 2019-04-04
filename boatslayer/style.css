@@ -133,7 +133,7 @@ body {
   transition: opacity 800ms;
   background-image: url("./img/monster-hit.png");
   animation-name: spriteSheet;
-  animation-duration: 1000ms;
+  animation-duration: 700ms;
   animation-timing-function: steps(3);
  }
 
